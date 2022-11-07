@@ -39,6 +39,9 @@ public class Ex17 {
 	 * @return true si és primer, false en cas contrari
 	 */
 	static boolean esPrimer(int nombre) {
+		if (nombre == 1) {
+			return false;
+		}
 		for (int i = 2; i < nombre; i ++) {
 			if (nombre % i == 0) {
 				return false;

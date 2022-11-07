@@ -9,7 +9,6 @@ public class Ex18 {
 	public static void main(String[] args) {
 		boolean correcte = false;
 		int dni = 0;
-		double[] array;
 
 		// entrada
 		Scanner lector = new Scanner(System.in);
