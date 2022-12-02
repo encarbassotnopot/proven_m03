@@ -82,7 +82,7 @@ public class IMC {
 				if (0 < estatura && estatura <= 2.75) {
 					estaturaValida = true;
 				} else {
-					System.out.println("Entra un pes vàlid.");
+					System.out.println("Entra una alçada vàlida.");
 				}
 			} catch (InputMismatchException e) {
 				System.out.println("No s'ha pogut llegir el valor.");
