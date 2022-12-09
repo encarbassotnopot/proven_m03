@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 /**
  * Genera una array amb 100 enters aleatoris entre 0 i 1000

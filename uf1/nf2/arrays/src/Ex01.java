@@ -1,3 +1,4 @@
+
 /**
  * Demana a l'usuari valors enters per una array.
  * Mostra l'array, la mida, la suma, el producte, la mitjana i els valors mínim i màxim.
@@ -21,7 +22,7 @@ public class Ex01 {
 		}
 		double mitjana = (double) suma/mida;
 
-		System.out.println(Utils.intArrayToString(array);
+		System.out.println(Utils.intArrayToString(array));
 		System.out.println("Mida: " + mida);
 		System.out.println("Suma: " + suma);
 		System.out.println("Producte: " + producte);

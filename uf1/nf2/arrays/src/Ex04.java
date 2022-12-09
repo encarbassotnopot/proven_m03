@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 /**
  * Demana a l'usuari valors el tamany d'una array i un valor per omplir-la.

@@ -56,10 +56,20 @@ public class Utils {
 	 * @return l'array plena
 	 */
 	public static int[] demanaIntArray(int mida) {
+		return demanaIntArray(mida, "Entra un enter: ");
+	}
+
+	/**
+	 * Demana enters a l'usuari per omplir una array
+	 * @param mida la mida de l'array
+	 * @param missatge el missatge que cal mostrar a l'usuari
+	 * @return l'array plena
+	 */
+	public static int[] demanaIntArray(int mida, String missatge) {
 		int[] array = new int[mida];
 
 		for (int i = 0; i < mida; i++) {
-			array[i] = demanaEnter("Entra un enter: ");
+			array[i] = demanaEnter(missatge);
 		}
 
 		return array;

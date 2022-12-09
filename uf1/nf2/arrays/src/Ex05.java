@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 /**
  * Demana a l'usuari un rang de valors per omplir una array i la mostra.
