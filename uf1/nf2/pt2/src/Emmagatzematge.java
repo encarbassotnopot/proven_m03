@@ -1,6 +1,7 @@
 /**
  * Genera una array de tamany 30 amb enters aleatoris de l'1 al 15, substitueix per 0 els valors entre 7 i 12 i per -1
  * el primer valor més gran de 12. Mostra l'array a cada pas.
+ * @author eina
  */
 public class Emmagatzematge {
 	public static void main(String[] args) {
